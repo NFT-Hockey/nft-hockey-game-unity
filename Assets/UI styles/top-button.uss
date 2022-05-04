@@ -1,0 +1,90 @@
+.top-button {
+    height: 75%;
+    width: 375%;
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-left-width: 3px;
+    border-right-width: 3px;
+    border-top-width: 3px;
+    border-bottom-width: 3px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: initial;
+    -unity-font: url('project://database/Assets/Fonts/Orbitron/static/Orbitron-Medium.ttf?fileID=12800000&guid=5e05c73de79a19ffc84ce22802fceb31&type=3#Orbitron-Medium');
+    -unity-font-definition: none;
+    text-shadow: 0 0 0 rgb(0, 0, 0);
+    background-color: rgb(54, 78, 160);
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 255);
+    flex-grow: 2;
+    flex-direction: row-reverse;
+    flex-shrink: 1;
+    position: relative;
+    flex-basis: auto;
+    -unity-text-align: middle-center;
+    translate: 1px 1px;
+}
+
+.top-button:hover {
+    height: 75px;
+    width: 375px;
+    border-left-color: rgb(54, 78, 160);
+    border-right-color: rgb(54, 78, 160);
+    border-top-color: rgb(54, 78, 160);
+    border-bottom-color: rgb(54, 78, 160);
+    border-left-width: 3px;
+    border-right-width: 3px;
+    border-top-width: 3px;
+    border-bottom-width: 3px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 45px;
+    -unity-font: url('project://database/Assets/Fonts/Orbitron/static/Orbitron-Medium.ttf?fileID=12800000&guid=5e05c73de79a19ffc84ce22802fceb31&type=3#Orbitron-Medium');
+    -unity-font-definition: none;
+    text-shadow: 0 0 0 rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(54, 78, 160);
+}
+
+.top-button:active {
+    height: 75px;
+    width: 375px;
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-left-width: 3px;
+    border-right-width: 3px;
+    border-top-width: 3px;
+    border-bottom-width: 3px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 45px;
+    -unity-font: url('project://database/Assets/Fonts/Orbitron/static/Orbitron-Medium.ttf?fileID=12800000&guid=5e05c73de79a19ffc84ce22802fceb31&type=3#Orbitron-Medium');
+    -unity-font-definition: none;
+    text-shadow: 0 0 0 rgb(0, 0, 0);
+    background-color: rgb(54, 78, 160);
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+}

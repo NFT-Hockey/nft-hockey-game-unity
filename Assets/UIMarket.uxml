@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20styles/top-button.uss?fileID=7433441132597879392&amp;guid=a1632de0c3c3a314190a5c3bf384e2af&amp;type=3#top-button" />
+    <ui:VisualElement usage-hints="DynamicTransform" name="TopMenu" focusable="true" style="position: relative; flex-direction: row; align-items: center; justify-content: flex-start; flex-grow: 0; height: 12%; width: 100%; transform-origin: center; flex-basis: 12%; flex-shrink: 0; left: 0; top: 0; right: 0; font-size: 100%;">
+        <ui:Button display-tooltip-when-elided="true" name="GoBackButton" usage-hints="None" enable-rich-text="true" class="top-button" style="width: 100%; border-left-width: 3px; border-right-width: 3px; border-top-width: 3px; border-bottom-width: 3px; background-image: url(&apos;project://database/Assets/Sprites/Go%20back%20button%20(1).png?fileID=2800000&amp;guid=d99a079c6333a345791f78ab3df5c092&amp;type=3#Go back button (1)&apos;); flex-direction: row; flex-grow: 1; height: 75%; align-items: stretch; flex-basis: auto; font-size: 50%;" />
+        <ui:Button text="Buy cards" display-tooltip-when-elided="true" name="BuyCardsButton" usage-hints="None" enable-rich-text="true" class="top-button" style="font-size: 60px; flex-basis: auto;" />
+        <ui:Button text="Sell cards" display-tooltip-when-elided="true" name="SellCardsButton" usage-hints="None" class="top-button" style="font-size: 60px; flex-basis: auto;" />
+        <ui:Button text="Buy packs" display-tooltip-when-elided="true" name="BuyPacksButton" usage-hints="None" class="top-button" style="font-size: 60px; flex-basis: auto;" />
+        <ui:Button text="Mint cards" display-tooltip-when-elided="true" name="MintCards" usage-hints="None" class="top-button" style="font-size: 60px; flex-basis: auto;" />
+    </ui:VisualElement>
+</ui:UXML>
